@@ -1,0 +1,46 @@
+body {
+  background-image: url(../img/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  line-height: 30px;
+  vertical-align: top;
+color: white;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: red;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+.container {
+  margin:0;
+  margin-top: yellow;
+  padding:0;
+  text-align: left;
+  background-color: inherit;
+  font-style: oblique;
+
+}
+img {
+  float:right;
+  height:30%;
+  width:30%;
+}

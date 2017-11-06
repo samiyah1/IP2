@@ -1,0 +1,217 @@
+.image {
+height: 90vh;
+background-image: url("../img/landing.jpg");
+background-repeat: no-repeat;
+padding-top: 10%;
+text-align: center;
+color: white;
+
+}
+.text {
+  text-align: center;
+  align-items: inherit;
+
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+color:white;
+font-size: 20px;
+font-style: oblique;
+}
+.top-right {
+text-align: right;
+}
+#section1 {
+  vertical-align:right;
+}
+.box {
+  border: 20px light grey;
+  padding: 10px;
+  margin: 50px;
+  width: 95%;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+}
+.floating-box {
+  color:#F15A26;
+  border: 2px solid #F15A26;
+  font-size: 25px;
+  margin-left: 100px;
+  width: 200px;
+
+
+}
+#box {
+  float: right;
+  border: 20px light grey;
+  padding: 10px;
+  margin: 50px;
+  width: 46%;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+.drinker {
+  float:right;
+}
+#food {
+  background-image: url(../img/foodsBg.jpg);
+  height: 50vh;
+}
+#breakfast {
+  opacity: 1.0;
+  padding:0px;
+
+}
+#breakfast:hover {
+  opacity: 0.5;
+
+}
+#lunch {
+  opacity: 1.0;
+}
+#lunch:hover {
+  opacity: 0.5;
+}
+#dinner {
+  opacity: 1.0;
+}
+#dinner:hover {
+  opacity: 0.5;
+}
+.jumbotron {
+  height: 50vh;
+}
+#party {
+background-color: grey;
+}
+.col-sm-3 {
+  color: black;
+  column-fill: auto;
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+  background-color: #dddddd;
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-decoration: none;
+    background-color: #dddddd;
+}
+
+li a:hover {
+    background-color:grey;
+}
+#pizza {
+  background-image: url(../img/foodsBg.jpg);
+  height:500px;
+}
+#tesxt {
+  color:#F15A26;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#customers {
+  background-color: #F15A29;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.lay {
+  position:absolute;
+  left:5%;
+  top:5%;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.food-menu {
+  color:white;
+
+}
+
+
+#subscribe {
+  background-image: url(../img/subscribe.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top:40px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+#button {
+  background-color: light grey;
+}
+#subs {
+  background-color: #F15A26;
+}
+#texts {
+  word-spacing:200px;
+}
+.footer {
+  margin-top: 90px;
+  font-size: 10px;
+}
